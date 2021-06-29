@@ -57,7 +57,7 @@ const Channel = ({ user = null, db = null }) => {
                     onChange={handleonChange}
                     placeholder="Type New Message Her ..."
                 />
-                <button className="btn btn-primary" type="submit" >Send</button>
+                <button className="btn btn-primary" type="submit" >Send it</button>
             </form>
         </div>
     );
