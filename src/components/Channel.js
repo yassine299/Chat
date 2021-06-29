@@ -44,9 +44,9 @@ const Channel = ({ user = null, db = null }) => {
         <div className="position-absolute top-50 start-50 translate-middle mt-3" style={{ height: "80%" }}>
             <ul style={{ listStyleType: "none", marginTop: "20px" }}>
                 {messsges.map(message => (
-                    <div class="container darker">
-                        <img src={message.photoURL} alt="Avatar" class="right" />
-                        <p>{message.text}</p>
+                    <div className="d-flex">
+                        <img style={{ width: "30px", height: "30px", borderRadius: "50px", margin: "5px" }} src={message.photoURL} alt={message.displayName} />
+                        <li className="text-break" key={message.id}>{message.text}</li>
                     </div>
                 ))}
             </ul>
