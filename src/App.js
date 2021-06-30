@@ -68,18 +68,18 @@ function App() {
           <Channel user={user} db={db} />
         </>
       ) : (
-          <>
-            <figure class="text-center">
-              <blockquote class="blockquote">
-                <p>This is the place when you can Chat new people just Like olde Times .</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                just sign in <cite title="Source Title">Using Google and You Ready To Go</cite>
-              </figcaption>
-            </figure>
-            < button className="btn btn-primary position-absolute top-50 start-50 translate-middle" onClick={signwithgoogle}>sign with <img style={{ width: "30px", height: "30px" }} src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" /> </button>
-          </>
-        )}
+        <>
+          <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>This is the place when you can Chat new people just Like olde Times .</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              just sign in <cite title="Source Title">Using Google and You Ready To Go</cite>
+            </figcaption>
+          </figure>
+          < button className="btn btn-primary position-absolute top-50 start-50 translate-middle" onClick={signwithgoogle}>sign with <img style={{ width: "30px", height: "30px" }} src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" /> </button>
+        </>
+      )}
     </div>
   );
 }
