@@ -3,6 +3,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import Channel from "./components/Channel";
+import logo from "../src/Google.png"
 
 firebase.initializeApp({
   apiKey: "AIzaSyCgN9jH4x_Jw-kHSOsXL6yxs5kiAhxXD1A",
@@ -77,7 +78,7 @@ function App() {
               just sign in <cite title="Source Title">Using Google and You Ready To Go</cite>
             </figcaption>
           </figure>
-          < button className="btn btn-primary position-absolute top-50 start-50 translate-middle" onClick={signwithgoogle}>sign with <img style={{ width: "30px", height: "30px" }} src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" /> </button>
+          < button className="btn btn-primary position-absolute top-50 start-50 translate-middle" onClick={signwithgoogle}>sign with <img style={{ width: "30px", height: "30px" }} src={logo} /> </button>
         </>
       )}
     </div>
