@@ -75,7 +75,7 @@ function App() {
               <p>This is the place when you can Chat new people just Like olde Times .</p>
             </blockquote>
             <figcaption class="blockquote-footer">
-              just sign in <cite title="Source Title">Using Google and You Ready To Go</cite>
+              just sign in <cite title="Source Title">Using Google and You Ready To Go , Have fun</cite>
             </figcaption>
           </figure>
           < button className="btn btn-primary position-absolute top-50 start-50 translate-middle" onClick={signwithgoogle}>sign with <img style={{ width: "30px", height: "30px" }} src={logo} /> </button>
