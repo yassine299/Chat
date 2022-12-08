@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import firebase from "firebase/app";
-import "./App.css"
+
 
 const Channel = ({ user = null, db = null }) => {
     const [messsges, setmessages] = useState([]);
